@@ -7,12 +7,10 @@ def getCountACGT(strin):
 
 	return acgt
 
-
 path = input("file path: ")
 
 if path:
 	f = open(path, "r")
 	text = f.read()
 	result = getCountACGT(text) 
-
 	print(str(result["A"]) + " " + str(result["C"]) + " " + str(result["G"]) + " " + str(result["T"]))
