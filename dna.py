@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def getCountACGT(strin):
 	acgt = {"A": 0, "C": 0, "G": 0, "T": 0}
 
