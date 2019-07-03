@@ -1,15 +1,14 @@
 #!/usr/bin/python3
+import os
+
 def getCountACGT(strin):
 	acgt = {"A": 0, "C": 0, "G": 0, "T": 0}
-
 	for it in strin:
 		acgt[it] += 1;
-
 	return acgt
 
-path = input("file path: ")
-
-if path:
+path = input("file path:")
+if os.path.exists(path):
 	f = open(path, "r")
 	text = f.read()
 	result = getCountACGT(text) 
