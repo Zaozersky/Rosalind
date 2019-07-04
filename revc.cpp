@@ -48,5 +48,7 @@ int main()
 	cout << reverseComplement(dna) << endl;
 
 	ifs.close();
+	
+	return 0;
 }
 
