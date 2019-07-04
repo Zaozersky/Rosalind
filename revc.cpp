@@ -41,8 +41,7 @@ int main()
 	cout << "file path: ";
 	cin >> path;
 	
-	ifstream ifs(path);
-	
+	ifstream ifs(path);	
 	ifs >> dna;
 
 	cout << reverseComplement(dna) << endl;
