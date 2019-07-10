@@ -30,7 +30,6 @@
 using namespace std;
 
 vector<char> v;
-VB used;
 vector<char> z;
 
 void print()
@@ -75,10 +74,7 @@ int main()
     ifs >> n;
 
     v = vector<char>(n);
-    used = vector<bool>(n + 1, false);
     perm(0, n);
-    
-    
-return 0;
-    
+        
+    return 0;   
 }
