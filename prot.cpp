@@ -32,7 +32,7 @@ using namespace std;
 
 map<string, string> codons;
 
-void fillCodonsTable()
+void fillCodons()
 {
     ifstream ifs("codons.txt");
     string rna, protein;
@@ -54,7 +54,7 @@ int main()
    
     ifs >> s;
     
-    fillCodonsTable();
+    fillCodons();
     
     for (int i = 0; i < s.length() - k; i += k)
     {
@@ -66,7 +66,6 @@ int main()
     }
     
     cout << endl;
-
     ifs.close();
     
     return 0;  
