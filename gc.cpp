@@ -50,6 +50,7 @@ int main()
     map<string, string> headerToFasta;
     
     ifstream ifs("input.txt");
+    
     while(getline(ifs, str))
     {
         if (str[0] == '>')
@@ -89,9 +90,4 @@ int main()
     ifs.close();
     
     return 0;
-    
-    /*
-     >Rosalind_6701
-     49.7103
-     */
 }
