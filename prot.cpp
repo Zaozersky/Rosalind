@@ -36,8 +36,7 @@ void fillCodonsTable()
 {
     ifstream ifs("codons.txt");
     string rna, protein;
-    
-    
+      
     while(!ifs.eof())
     {
         ifs >> rna >> protein;
