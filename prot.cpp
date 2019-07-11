@@ -69,6 +69,5 @@ int main()
 
     ifs.close();
     
-    return 0;
-    
+    return 0;  
 }
