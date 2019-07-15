@@ -85,6 +85,6 @@ int main()
     FO(i, n)
      cout << dist[i] << " ";
     
-    
+    ifs.close();
     return 0;
 }
