@@ -33,7 +33,7 @@ using namespace std;
 int main()
 {
     string t, s;
-    std::size_t found = 0;
+    size_t found = 0;
     
     ifstream ifs("input.txt");
     ifs >> s;
